@@ -1,0 +1,52 @@
+
+.horizontal-scroll-wrapper-a {
+    position: relative;
+  overflow-y:hidden ;
+  overflow-x: auto;
+  display: flex;
+  padding: 10px;
+  transition: transform 0.3s;
+  
+  }
+  
+  .horizontal-scroll-wrapper-a > div{
+    padding: 2PX;
+  }
+  .horizontal-scroll-wrapper-a::-webkit-scrollbar{
+  
+    display: none;
+  
+  }
+  
+  .ms{
+  max-width: 50vw;
+  
+  }
+  
+  .svg__product__img h5{
+    color: white;
+  }
+  
+  .homepage_a_svg_product_button{
+    position: sticky;
+    left: 48vw;
+    width: 35px;
+    height: 280px;
+    margin-top: 60px;
+    background-color: rgba(0, 0, 0, 0);
+    border: transparent;
+  }
+  
+  
+  .svg__product__img{
+    transition: transform 0.3s;
+
+  
+  }
+  .svg__product__img:hover{
+    transform: scale(1.08);
+    transition: transform 0.3s;
+  
+  
+  }
+  

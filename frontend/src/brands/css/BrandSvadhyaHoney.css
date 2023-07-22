@@ -1,0 +1,57 @@
+.brand__background{
+    
+    top: 0;
+  left: 0;
+  width: 100%;
+  object-fit:fill;
+  position: relative;
+  background-color: #Fdfff5;
+
+
+
+}
+
+.brand__img{
+    width: 100%;
+    padding: 5px;
+}
+
+
+.brand__vidoe__container{
+    padding-top: 5px;
+    position:relative
+}
+
+.brand__vidoe__play{
+    position: absolute;
+    left: 47%;
+    top:50%;
+    bottom: 50%;
+    font-size: 5vw;
+    color: white;
+
+}
+
+.brand__vidoe__play:hover{
+    cursor: pointer;
+}
+
+
+
+.brand__title{
+
+         font-size: 6vw;
+         color: black;
+         font-weight: 1000;
+         text-align: center;
+         text-transform: uppercase;
+
+}
+
+
+.brand__detail__text{
+text-align: left;
+color: black;
+font-weight: 300;
+
+}

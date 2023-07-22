@@ -1,0 +1,18 @@
+.aboutus__link{
+    cursor: pointer;
+}
+
+.aboutus__link:hover{
+
+    color: white;
+}
+
+.social_media_icon{
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 15px;
+
+}
+
+.social_media_icon:hover{
+}

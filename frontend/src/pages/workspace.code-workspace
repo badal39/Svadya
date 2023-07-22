@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "../.."
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"Practical37.C": "cpp",
+			"Practical38.C": "cpp",
+			"ostream": "cpp"
+		}
+	}
+}

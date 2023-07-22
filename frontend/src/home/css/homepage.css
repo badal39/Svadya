@@ -1,0 +1,451 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,100&display=swap');
+
+
+
+
+  
+
+.homepage__{
+
+  top: 0;
+  left: 0;
+  width: 100%;
+  object-fit:fill;
+}
+
+.a{
+  
+  position: relative;
+  background-color: rgb(3, 206, 164);
+
+}
+
+.ghee_background{
+
+  position:relative;
+  background-color: #Fdfcfa;
+
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+/* svg position */
+
+
+
+.svg__img{
+  position: absolute;
+  height: 100px;
+  transition: transform 250ms;
+}
+
+.svg1{
+  right: 10%;
+  top: 2%;
+
+  height: 100px;
+
+}
+
+
+.svg3{
+  right: 30%;
+  bottom: 20%;
+  height: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+.b{
+
+  background-color: #F6F5F7;
+  color: black;
+
+  
+}
+
+
+
+
+
+ 
+
+
+.row_cards {
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    padding: 20px;
+    background: transparent;
+    
+  }
+  
+  
+  
+  .row_cards::-webkit-scrollbar {
+    display: none;
+  
+  }
+
+ 
+
+  
+  .row_card {
+   
+    border: transparent;
+    background-color: rgba(255, 255, 255, 0.6);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+    word-wrap: break-word;
+  
+    object-fit: contain;
+    width: 300px;
+    height: 169px;
+    margin: 10px;;
+    transition: transform 250ms;
+  
+   
+  }
+
+  
+  .row_card:hover{
+  
+     
+
+  }
+
+
+  .img_container {
+    position: relative;
+    text-align: center;
+    color: black;
+    transition: transform 250ms;
+
+  }
+  
+  
+  
+  .bottom-right {
+    position: absolute;
+    bottom: 4px;
+    right: 2px;
+    height: 30px;
+    background: rgba(255, 255, 255,1);
+  
+    width: 300px;
+    margin: 5px;
+    
+  
+  }
+
+  
+  
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.homepage__shopnow_button{
+
+    padding: 10px;
+
+    border-radius: 2px 2px 2px 2px;
+    border: 2px solid #78C2AD;
+
+}
+
+.homepage__shopnow_button:hover {
+
+    color:white;
+    border: 3px solid #78C2AD;
+
+
+
+}
+
+
+
+
+
+
+.homepage__1__h3{
+
+    font-size: 2.1em;
+
+    font-weight: 600;
+    color:rgba(0, 0, 0, 0.8);
+    line-height: 1em;
+
+
+}
+
+.homepage__1__p{
+
+    font-size: 1.1em;
+    color:black;
+    font-weight: 300;
+    max-width: 600px;
+}
+
+
+
+
+
+
+
+
+/*  temp just for fun */
+
+
+
+
+.box{
+    margin:0px;
+    width:300px;
+    height:90px;
+    background:#fff;
+    border: solid black;
+    border-color: black;
+  }
+
+  .box1{
+      margin-top: 10px;
+   /* border-width: 3px 4px 3px 5px;
+    border-radius:95% 4% 92% 5%/4% 95% 6% 95%;
+    transform: rotate(2deg);*/
+    border-width: 3px 4px 3px 5px;
+    border-radius:95% 4% 92% 5%/4% 95% 6% 95%;
+    transform: rotate(2deg);
+  }
+
+
+  .oddboxinner{
+    text-align: center;
+    transform: rotate(-5deg);
+  }
+
+  .justify {
+    text-align:center;
+    text-justify:inter-word;
+    max-width: 310px;
+}
+
+
+.Border-bottom{
+    border-bottom: solid 3px #03CEA4 ;
+    transition: outline 0.6s linear;
+
+    
+}
+
+
+.Border-right{
+    border-right: solid 2px #03CEA4 ;
+    transition: outline 0.6s linear;
+    height: 10em;
+
+    
+}
+
+
+
+
+  
+
+  
+  
+
+
+/* CSS */
+.button-82-pushable {
+  position: relative;
+  border: none;
+  background: transparent;
+  padding: 0;
+  cursor: pointer;
+  outline-offset: 4px;
+  transition: filter 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 300px;
+}
+
+.button-82-shadow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  background: hsl(0deg 0% 0% / 0.25);
+  will-change: transform;
+  transform: translateY(2px);
+  transition:
+    transform
+    600ms
+    cubic-bezier(.3, .7, .4, 1);
+}
+
+.button-82-edge {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  background: linear-gradient(
+    to left,
+    hsl(0deg 0% 20%) 0%,
+    hsl(0deg 0% 25%) 8%,
+    hsl(0deg 0% 20%) 92%,
+    hsl(0deg 0% 25%) 100%
+  );
+}
+
+.button-82-front {
+  display: block;
+  position: relative;
+  padding: 12px 27px;
+  border-radius: 12px;
+  font-size: 1.1rem;
+  color: white;
+  background: hsl(0deg 0% 20%);
+  will-change: transform;
+  transform: translateY(-4px);
+  transition:
+    transform
+    600ms
+    cubic-bezier(.3, .7, .4, 1);
+}
+
+@media (min-width: 768px) {
+  .button-82-front {
+    font-size: 1.25rem;
+    padding: 12px 42px;
+  }
+}
+
+.button-82-pushable:hover {
+  filter: brightness(110%);
+}
+
+.button-82-pushable:hover .button-82-front {
+  transform: translateY(-6px);
+  transition:
+    transform
+    250ms
+    cubic-bezier(.3, .7, .4, 1.5);
+}
+
+.button-82-pushable:active .button-82-front {
+  transform: translateY(-2px);
+  transition: transform 34ms;
+}
+
+.button-82-pushable:hover .button-82-shadow {
+  transform: translateY(4px);
+  transition:
+    transform
+    250ms
+    cubic-bezier(.3, .7, .4, 1.5);
+}
+
+.button-82-pushable:active .button-82-shadow {
+  transform: translateY(1px);
+  transition: transform 34ms;
+}
+
+.button-82-pushable:focus:not(:focus-visible) {
+  outline: none;
+}
+
+
+
+
+/* CSS */
+.button-30 {
+  align-items: center;
+  appearance: none;
+  background-color: #fafafa;
+  border-radius: 2px;
+  border-width: 0;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #050000;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 18px;
+}
+
+.button-30:focus {
+  box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+}
+
+.button-30:hover {
+  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.button-30:active {
+  box-shadow: #D6D6E7 0 3px 7px inset;
+  transform: translateY(2px);
+}
+

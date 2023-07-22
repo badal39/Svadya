@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Yanone+Kaffeesatz:wght@300&display=swap');
+
+
+
+.product__card {
+  position: relative;
+  width: 100%;
+  
+  background: transparent;
+  border-radius: 00px;
+  overflow: hidden;
+  
+
+}
+
+.product__card h3{
+  font-family: 'Bebas Neue',sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.product__card::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  font-weight: 600;
+  font-size: 8em;
+  color: rgba(0, 0, 0, 0.1);
+  
+}
+
+.product__card .imgBx {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+  z-index: 1;
+}
+
+ .imgBx {
+  transition: 0.5s;
+  height: 515px;
+}
+
+
+
+.imgBx:hover {
+  transform: scale(1.079);
+
+}
+
+.product__card .contentBx
+{
+
+
+  position: relative;
+  padding: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 1;
+}
+
+.product__description{
+
+  padding: 20px;
+  margin-bottom: 0px; 
+  font-family: 'Yanone Kaffeesatz';
+  font-weight: 500;
+
+}
+
+
+.product__card button{
+  width: 180px;
+  padding: 9px;
+  
+  
+}
+
+.div__wrapper{
+
+  border: 1px solid #ddd;
+  display: flex;
+  overflow-y: hidden;
+  overflow-x: scroll;}
+
+.div__wrapper::-webkit-scrollbar{
+  width: 0;
+}
+
+.div__wrapper .product__card{
+
+  
+}

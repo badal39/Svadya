@@ -1,0 +1,58 @@
+
+
+.products__container{
+
+    border-radius: 2px 2px 2px 2px;
+    background-color: rgba(241, 245, 244,0);
+    color: black !important;
+}
+
+.products__img{
+    
+width: 100px !important;   
+}
+
+
+.product__text{
+    color:black ;
+}
+
+
+.product__text:link { text-decoration: none; }
+
+
+
+.product__name__text{
+   
+    color: rgb(0, 0, 0) !important; 
+    font-weight: 600 !important;
+
+}
+.product__des__text{
+
+    color:rgb(7, 7, 7) !important; 
+    font-weight: 300 !important;
+}
+
+
+.product__farmname__text{
+
+}
+
+
+.product__prise__text{
+    color:rgb(7, 7, 7) !important; 
+    font-weight: 300 !important;
+    
+}
+
+
+
+.product__addtocard__button{
+
+color: white;
+border: transparent;
+padding: 7px;
+width: 50%;
+background-color: #03CEA4;
+}

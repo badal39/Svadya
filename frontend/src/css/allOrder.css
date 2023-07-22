@@ -1,0 +1,12 @@
+.order_num_badge{
+
+    background-color: white;
+    color: #000000;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.orders__card{
+
+    background-color: #f7f7f7;
+    border: transparent;
+}

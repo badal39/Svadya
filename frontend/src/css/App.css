@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,600;0,800;1,100;1,200;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Coustard:wght@900&family=Lora:ital,wght@0,500;0,600;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Qahiri&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;0,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Bangers');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&family=Yanone+Kaffeesatz:wght@300;500;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=WindSong:wght@400;500&display=swap');
+
+
+
+
+.yanone-kaffeesatz{
+    font-family: 'Otomanopee One', sans-serif;
+font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.slabo{
+    font-family: 'Slabo 27px', serif;
+}
+
+.bangers{
+    font-family: 'Bangers', cursive;
+
+}
+.poppins{
+
+    font-family: 'Poppins', sans-serif;
+}
+
+.windsong{
+    font-family: 'WindSong', cursive;
+
+}
+
+.sigmar-One{
+    font-family: 'Sigmar One', cursive;
+}
+
+
+
+.lora{
+    font-family: 'Lora', serif;
+    font-weight: bolder;
+}
+
+.coustard{
+    font-weight: 1000;
+    
+    font-family: 'Coustard', serif;
+    font-family: 'Lora', serif;
+}
+
+.qahiri{
+    font-family: 'Qahiri', sans-serif;
+}
+
+.roboto{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.message{
+
+    opacity: 0.8;
+
+}
+
+
+.link:link { text-decoration: none; }
+
+
+.text__lable{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 1000;
+
+}
+
+.text__field{
+    font-family: 'Otomanopee One', sans-serif;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 22px;
+
+}
+
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+ }
